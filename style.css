@@ -13,12 +13,12 @@ p {
 
 .wrapper {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
 }
 
 .img-kitchen {
-  width: 150px;
-  height: 200px;
+  width: 133px;
+  height: 178px;
   background-image: url(img/imgkitchen.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -26,8 +26,8 @@ p {
 }
 
 .img-lr {
-  width: 150px;
-  height: 112.3px;
+  width: 133px;
+  height: 100.3px;
   background-image: url(img/imglr.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -35,8 +35,8 @@ p {
 }
 
 .img-hw {
-  width: 150px;
-  height: 112.3px;
+  width: 133px;
+  height: 100.3px;
   background-image: url(img/imghw.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -62,10 +62,10 @@ ul li {
 .list li a {
   display: block;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 13px;
   font-family: fantasy;
   color: #00cc6d;
-  padding: 0 50px;
+  padding: 0 35px;
 }
 
 .list li {
@@ -75,4 +75,3 @@ ul li {
 .list li a:hover {
   color: #00924e;
 }
-
