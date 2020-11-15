@@ -19,7 +19,7 @@ p {
 .img-kitchen {
   width: 150px;
   height: 200px;
-  background-image: url(img/imgkitchen.jpg);
+  background-image: url(https://image.jimcdn.com/app/cms/image/transf/dimension=182x10000:format=jpg/path/s173d2d220ab404ad/image/i5cf92d74db6c16e3/version/1387118589/image.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   padding-bottom: 10px;
@@ -28,7 +28,7 @@ p {
 .img-lr {
   width: 150px;
   height: 112.3px;
-  background-image: url(img/imglr.jpg);
+  background-image: url(https://image.jimcdn.com/app/cms/image/transf/dimension=228x10000:format=jpg/path/s173d2d220ab404ad/image/ib68845afb840d013/version/1423381416/image.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   padding-bottom: 10px;
@@ -37,7 +37,7 @@ p {
 .img-hw {
   width: 150px;
   height: 112.3px;
-  background-image: url(img/imghw.jpg);
+  background-image: url(https://image.jimcdn.com/app/cms/image/transf/dimension=228x10000:format=jpg/path/s173d2d220ab404ad/image/ife4d9527bbc1f38f/version/1377585805/image.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   object-position: top;
@@ -75,3 +75,4 @@ ul li {
 .list li a:hover {
   color: #00924e;
 }
+
