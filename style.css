@@ -4,11 +4,7 @@
 }
 
 body {
-  background-color: rgb(87, 87, 87);
-}
-
-p {
-  font-size: 20;
+  background-color: #fff;
 }
 
 .wrapper {
@@ -50,7 +46,7 @@ p {
 nav {
   width: 100%;
   height: 100px;
-  background-color: rgb(82, 82, 82);
+  background-color: #DCDCDC;
 }
 
 ul li {
@@ -65,7 +61,7 @@ ul li {
   font-size: 13px;
   font-family: fantasy;
   color: #00cc6d;
-  padding: 0 35px;
+  padding: 0 33px;
 }
 
 .list li {
@@ -74,4 +70,134 @@ ul li {
 
 .list li a:hover {
   color: #00924e;
+}
+
+
+/* ######################################################################
+TABLET
+###################################################################### */
+
+
+@media only screen and (min-width: 768px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .img-kitchen {
+    width: 163px;
+    height: 208px;
+    background-image: url(img/imgkitchen.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+  }
+
+  .img-lr {
+    width: 163px;
+    height: 130.3px;
+    background-image: url(img/imglr.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+  }
+
+  .img-hw {
+    width: 163px;
+    height: 130.3px;
+    background-image: url(img/imghw.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-position: top;
+  }
+
+  .title{
+    color: #00b460;
+    font-size: 38px;
+  }
+
+  nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  ul li {
+    list-style: none;
+    float: left;
+    line-height: 50px;
+  }
+
+  .list li a {
+    font-size: 22px;
+    padding: 0 70px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .img-kitchen {
+    width: 183px;
+    height: 228px;
+    background-image: url(img/imgkitchen.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+  }
+
+  .img-lr {
+    width: 183px;
+    height: 150.3px;
+    background-image: url(img/imglr.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+  }
+
+  .img-hw {
+    width: 183px;
+    height: 150.3px;
+    background-image: url(img/imghw.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-position: top;
+  }
+
+  .title{
+    color: #00b460;
+    font-size: 40px;
+  }
+
+  nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  ul li {
+    list-style: none;
+    float: left;
+    line-height: 54px;
+  }
+
+  .list li a {
+    font-size: 25px;
+    padding: 0 100px;
+  }
+
 }
